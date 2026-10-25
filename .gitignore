@@ -1,0 +1,43 @@
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Secrets & local config (never commit) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+credentials.*
+
+# --- Logs & temp ---
+*.log
+*.tmp
+tmp/
+temp/
+
+# --- Archives & large binaries (share via LMS / drive instead) ---
+*.zip
+*.rar
+*.7z
+
+# --- Web / Node / PHP / .NET (general coursework) ---
+node_modules/
+dist/
+build/
+.next/
+vendor/
+bin/
+obj/
+*.class
+*.exe
+*.o
+__pycache__/
+.ipynb_checkpoints/
